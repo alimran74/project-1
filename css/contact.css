@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+   width: 1024px;
+    margin: auto;
+}
+.add{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+}
+.con{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.contact{
+    background:#16a31682;
+}
+.footer{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .add{
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 430px){
+   
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+   textarea{
+    width: 200px;
+    height: 100px;
+   }
+   .add{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+}

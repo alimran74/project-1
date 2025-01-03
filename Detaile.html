@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawsome/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="dt/Detaile.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--head start -->
+    <div class="head">
+        <div class="container head-container">
+            <div class="logo">
+                <img src="image/logo-1.png" alt="image">
+            </div>
+            <div class="search">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" placeholder="search anything" id="">
+                </form>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="button">
+                <a href="login.html" class="btn">Login</a>
+                <a href="sign.html" class="btn">Sign-Up</a>
+            </div>
+        </div>
+    </div>
+    <!-- head end -->
+    <!-- menu start -->
+    <!-- menu start -->
+    <div class="menu">
+        <div class="container menu-container">
+            <div class="nev">
+                <ul class="navber">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="#" >Computer</a>
+                        <ul class="drop-menu">
+                            <li><a href="input.html">input devices</a></li>
+                            <li><a href="output.html">output devices</a></li>
+                            <li><a href="processing.html">processing devices</a></li>
+                            <li><a href="storage.html">storage device</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Electornics</a>
+                    <ul class="drop-menu">
+                        <li><a href="kitchen.html">kitchen appliances</a></li>
+                        <li><a href="laundry.html">laundry appliances </a></li>
+                        <li><a href="water.html">water appliances</a></li>
+                        <li><a href="other.html">other appliances</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="security.html">security</a></li>
+                    <li><a href="#">health</a>
+                        <ul class="drop-menu">
+                            <li><a href="medical.html">medical equipment</a></li>
+                            <li><a href="labortory.html">laboratory equipment</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">Service</a></li>
+                </ul>
+            </div>
+         <div class="bar">  <a href=""> <i class="fa-solid fa-bars" id="bar-btn"></i></a></div>
+        </div>
+    </div>
+    <div class="detaile">
+        <div class="heading">
+            <h4>Samsung SF355 18.5" LED Widescreen Computer Monitor</h4>
+            <p>Status: In Stock</p> 
+        </div>
+        <div class="img">
+            <img src="image/samsung.webp" alt="image">
+        </div><hr>
+        <div class="container detaile-container">
+            <div class="pc">
+                <img src="image/man.jpg" alt="image">
+            </div>
+            <div class="text">
+                <p>Gazipur Sadar</p>
+                <p>(Gazipur)</p>
+            </div>
+            <div class="seler">
+                <div class="cl">
+                <img src="image/call.png" alt="image"><h3>01705607283</h3>
+            </div>
+            <button class="call"><a href="">Call Person</a></button><br>
+            <button class="call"><a href="">WhatsApp</a></button>
+        </div>
+        <div class="pp">
+            <p><del>7,200 ৳</del></p>
+            <p class="pr">6,800 ৳</p>
+            <div class="cb">
+                <img src="image/clock.png" alt="image"><p>3 months ago</p>
+            </div>
+        </div>
+        </div><hr>
+        <div class="heading-1">
+            <h4>Details</h4>
+            <p>Item :	Monitor <br>
+                Brand :	Samsung <br>
+                Screen Size :	18.5 Inch <br>
+                Shape :	Wide Screen <br>
+                Contrast Ratio :	1000 : 1 <br>
+                Response Time :	14ms <br>
+                Resolution :	1366 x 768 <br>
+                Connectivity :	VGA</p> <br>
+        </div>
+        <div class="heading-1">
+            <h4>Description</h4>
+            <p>Samsung SF350 desktop computer monitor has 18.5 inch size widescreen display, HD video resolution, 14ms response time, 1000:1 contrast ratio, VGA connectivity.</p>
+        </div>
+    </div>
+     <!-- footer start -->
+     <div class="footer">
+        <div class="container">
+            <div class="foot">
+                <div class="popular-department">
+                    <h3>popular department</h3>
+                    <a href="">computer</a>
+                    <a href="">Electornics</a>
+                    <a href="">security</a>
+                    <a href="">health</a>
+                    <a href="storage.html">storage device</a>
+                    <a href="kitchen.html">kitchen appliances</a>
+                    <a href="medical.html">medical equipment</a>
+                </div>
+                <div class="bdshop">
+                    <img src="image/logo-1.png" alt="">
+                    <a href="index.html">home</a>
+                    <a href="contact.html">contact us</a>
+                    <a href="">location</a>
+                    <a href="about.html">Service</a>
+                </div>
+                <div class="follow">
+                    <h3>follow us</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="c-right">
+            <p>&copy;by bdshop.com</p>
+        </div>
+     </div>
+    <!-- footer end -->
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+       $('#bar-btn').click(function (e) {
+           e.preventDefault();
+           $('.nev').toggleClass('show');
+       });
+       
+   </script>
+</body>
+</html>
